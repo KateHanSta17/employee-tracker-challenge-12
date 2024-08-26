@@ -4,7 +4,7 @@
 [Employee Tracker Challenge 12](https://github.com/KateHanSta17/employee-tracker-challenge-12)
 
 ## Screen Recording
-
+[Employee tracker Challenge 12](https://drive.google.com/file/d/1ZS2odEDUuRpiZyz3r6HyEyWJCyz-wkCc/view)
 
 ## Example:
 * ![Sample working table data](./Assets/Screenshot%202024-08-25%20at%209.18.49 PM.png)
