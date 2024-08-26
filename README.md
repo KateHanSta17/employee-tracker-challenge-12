@@ -1,5 +1,61 @@
 # 12 SQL: Employee Tracker
 
+## GitHub URL
+[Employee Tracker Challenge 12](https://github.com/KateHanSta17/employee-tracker-challenge-12)
+
+## Screen Recording
+
+
+## Example:
+* ![Sample working table data](./Assets/Screenshot%202024-08-25%20at%209.18.49 PM.png)
+
+
+* ![Sample view after node index.js has run](./Assets/Screenshot%202024-08-25%20at%209.19.01 PM.png)
+
+## INSTRUCTIONS:
+### INSTALLATION
+
+Clone the repository:
+Copy code
+```md 
+git clone https://github.com/KateHanSta17/employee-tracker-challenge-12.git 
+```
+Navigate to the project directory:
+Copy code
+```md
+cd employee-tracker-challenge-12
+```
+Install dependencies:
+Copy code
+```md
+npm install
+```
+Set up the PostgreSQL database:
+```md 
+sql
+```
+Copy code
+```md
+CREATE DATABASE company_db;
+\c company_db
+\i schema.sql
+\i seed.sql
+```
+### USAGE
+Run the application:
+Copy code
+```md
+node index.js
+```
+Use the menu options to view and manage departments, roles, and employees.
+
+### Features
+* View all departments, roles, and employees
+* Add departments, roles, and employees
+* Update employee roles
+
+
+
 ## Your Task
 
 Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. Your assignment this week is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and PostgreSQL.
